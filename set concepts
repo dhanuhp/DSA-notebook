@@ -1,0 +1,29 @@
+s = {10, 50, 20}
+print(s)
+print(type(s))
+
+# typecasting list to set
+s = set(["a", "b", "c"])
+print(s)
+
+# Adding element to the set
+s.add("d")
+print(s)
+
+# Python program to demonstrate that
+# a set cannot have duplicate values 
+# and we cannot change its items
+
+# a set cannot have duplicate values
+s = {"hello", "hello", "hy"}
+print(s)
+
+# values of a set cannot be changed
+s[1] = "sorry"
+print(s)
+
+# Python example demonstrate that a set
+# can store heterogeneous elements
+s = {"Geeks", "for", 10, 52.7, True}
+print(s)
+
